@@ -1,0 +1,170 @@
+{
+  "response": {
+    "apps": [
+      {
+        "appid": 10,
+        "name": "Counter-Strike",
+        "last_modified": 1745368572,
+        "price_change_number": 33078735
+      },
+      {
+        "appid": 20,
+        "name": "Team Fortress Classic",
+        "last_modified": 1745368565,
+        "price_change_number": 33078735
+      },
+      {
+        "appid": 570,
+        "name": "Dota 2",
+        "last_modified": 1766010373,
+        "price_change_number": 33078735
+      },
+      {
+        "appid": 620,
+        "name": "Portal 2",
+        "last_modified": 1745363004,
+        "price_change_number": 33078735
+      },
+      {
+        "appid": 730,
+        "name": "Counter-Strike 2",
+        "last_modified": 1749053861,
+        "price_change_number": 33078735
+      },
+      {
+        "appid": 236850,
+        "name": "Europa Universalis IV",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 578080,
+        "name": "PUBG: BATTLEGROUNDS",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 1808500,
+        "name": "ARC Raiders",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 252490,
+        "name": "Rust",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 2767030,
+        "name": "Marvel Rivals",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 1172470,
+        "name": "Apex Legends",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 236390,
+        "name": "War Thunder",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 230410,
+        "name": "Warframe",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 3405690,
+        "name": "EA SPORTS FC™ 26",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 3240220,
+        "name": "Grand Theft Auto V Enhanced",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 413150,
+        "name": "Stardew Valley",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 322170,
+        "name": "Geometry Dash",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 1086940,
+        "name": "Baldur's Gate 3",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 2694490,
+        "name": "Path of Exile 2",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 381210,
+        "name": "Dead by Daylight",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 2507950,
+        "name": "Delta Force",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 2807960,
+        "name": "Battlefield™ 6",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 221100,
+        "name": "DayZ",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 227300,
+        "name": "Euro Truck Simulator 2",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 1716740,
+        "name": "Starfield",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 1238000,
+        "name": "Mass Effect™: Andromeda",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      },
+      {
+        "appid": 2842040,
+        "name": "Star Wars Outlaws",
+        "last_modified": 1746720143,
+        "price_change_number": 33226021
+      }
+    ],
+    "have_more_results": true,
+    "last_appid": 506960
+  }
+}

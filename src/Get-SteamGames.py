@@ -3,6 +3,8 @@ import json
 import os
 from datetime import datetime
 from config import access_token
+from combine_reviews_to_jsonl import combine_reviews_to_jsonl
+from convert_jsonl_to_csv import convert_jsonl_to_csv
 
 # Get the directory containing this script and set base paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -140,11 +142,12 @@ for game in games:
         'appid': game_appid,
         'reviews': reviews
     })
+timestamp = datetime.now().strftime('%Y%m%d')
 # Save all collected data to JSON file
-with open(os.path.join(DATA_DIR, 'game_player_data.json'), 'w', encoding='utf-8') as f:
+with open(os.path.join(DATA_DIR, f'game_player_data_{timestamp}.json'), 'w', encoding='utf-8') as f:
     json.dump(game_player_data, f, indent=2, ensure_ascii=False)
 
-timestamp = datetime.now().strftime('%Y%m%d')
+
 with open(os.path.join(REVIEWS_DIR, f'reviews_recent_data_{timestamp}.json'), 'w', encoding='utf-8') as f:
     json.dump(reviews_data, f, indent=2, ensure_ascii=False)
 
@@ -154,4 +157,15 @@ save_last_timestamps(new_timestamps)
 print(f"\nCollected data for {len(game_player_data)} games")
 print(f"Collected reviews for {len(reviews_data)} games")
 print(f"Timestamps saved to {os.path.join(DATA_DIR, 'last_timestamps.json')}")
-print(f"Timestamps saved to {os.path.join(DATA_DIR, 'last_timestamps.json')}")
+
+# Combine reviews to JSONL
+print("\n" + "="*50)
+print("Combining reviews to JSONL...")
+print("="*50)
+combine_reviews_to_jsonl()
+
+# Convert JSONL to CSV
+print("\n" + "="*50)
+print("Converting JSONL to CSV for Power BI...")
+print("="*50)
+convert_jsonl_to_csv()

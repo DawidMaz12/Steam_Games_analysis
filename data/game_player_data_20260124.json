@@ -1,110 +1,137 @@
 [
   {
     "appid": 10,
-    "player_no": 12863
+    "player_no": 12863,
+	"Date_collected": 1769212800
   },
   {
     "appid": 20,
-    "player_no": 68
+    "player_no": 68,
+	"Date_collected": 1769212800
   },
   {
     "appid": 570,
-    "player_no": 829323
+    "player_no": 829323,
+	"Date_collected": 1769212800
   },
   {
     "appid": 620,
-    "player_no": 3080
+    "player_no": 3080,
+	"Date_collected": 1769212800
   },
   {
     "appid": 730,
-    "player_no": 1502312
+    "player_no": 1502312,
+	"Date_collected": 1769212800
   },
   {
     "appid": 236850,
-    "player_no": 11757
+    "player_no": 11757,
+	"Date_collected": 1769212800
   },
   {
     "appid": 578080,
-    "player_no": 503716
+    "player_no": 503716,
+	"Date_collected": 1769212800
   },
   {
     "appid": 1808500,
-    "player_no": 242274
+    "player_no": 242274,
+	"Date_collected": 1769212800
   },
   {
     "appid": 252490,
-    "player_no": 177879
+    "player_no": 177879,
+	"Date_collected": 1769212800
   },
   {
     "appid": 2767030,
-    "player_no": 95276
+    "player_no": 95276,
+	"Date_collected": 1769212800
   },
   {
     "appid": 1172470,
-    "player_no": 151088
+    "player_no": 151088,
+	"Date_collected": 1769212800
   },
   {
     "appid": 236390,
-    "player_no": 104175
+    "player_no": 104175,
+	"Date_collected": 1769212800
   },
   {
     "appid": 230410,
-    "player_no": 94551
+    "player_no": 94551,
+	"Date_collected": 1769212800
   },
   {
     "appid": 3405690,
-    "player_no": 81853
+    "player_no": 81853,
+	"Date_collected": 1769212800
   },
   {
     "appid": 3240220,
-    "player_no": 93865
+    "player_no": 93865,
+	"Date_collected": 1769212800
   },
   {
     "appid": 413150,
-    "player_no": 107325
+    "player_no": 107325,
+	"Date_collected": 1769212800
   },
   {
     "appid": 322170,
-    "player_no": 75161
+    "player_no": 75161,
+	"Date_collected": 1769212800
   },
   {
     "appid": 1086940,
-    "player_no": 83174
+    "player_no": 83174,
+	"Date_collected": 1769212800
   },
   {
     "appid": 2694490,
-    "player_no": 58372
+    "player_no": 58372,
+	"Date_collected": 1769212800
   },
   {
     "appid": 381210,
-    "player_no": 62313
+    "player_no": 62313,
+	"Date_collected": 1769212800
   },
   {
     "appid": 2507950,
-    "player_no": 100605
+    "player_no": 100605,
+	"Date_collected": 1769212800
   },
   {
     "appid": 2807960,
-    "player_no": 66365
+    "player_no": 66365,
+	"Date_collected": 1769212800
   },
   {
     "appid": 221100,
-    "player_no": 57794
+    "player_no": 57794,
+	"Date_collected": 1769212800
   },
   {
     "appid": 227300,
-    "player_no": 54077
+    "player_no": 54077,
+	"Date_collected": 1769212800
   },
   {
     "appid": 1716740,
-    "player_no": 4586
+    "player_no": 4586,
+	"Date_collected": 1769212800
   },
   {
     "appid": 1238000,
-    "player_no": 527
+    "player_no": 527,
+	"Date_collected": 1769212800
   },
   {
     "appid": 2842040,
-    "player_no": 2155
+    "player_no": 2155,
+	"Date_collected": 1769212800
   }
 ]

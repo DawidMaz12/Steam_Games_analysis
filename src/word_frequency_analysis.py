@@ -141,18 +141,6 @@ def extract_word_frequencies(input_csv: str, output_csv: str, min_word_length: i
 
     print(f"\n✓ Saved {len(word_df):,} words to {output_csv}")
 
-    # Print summary
-    print("\n" + "="*60)
-    print("WORD FREQUENCY SUMMARY")
-    print("="*60)
-    print(f"Words after filtering: {len(word_df):,}")
-    print(f"Minimum frequency threshold: {min_frequency}")
-    print(f"Minimum word length: {min_word_length}")
-    print(f"\nTop 10 most frequent words:")
-    print(word_df[['word', 'frequency', 'avg_sentiment_compound',
-          'dominant_sentiment']].head(10).to_string(index=False))
-    print("="*60 + "\n")
-
     return word_df
 
 

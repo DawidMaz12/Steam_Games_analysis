@@ -77,9 +77,6 @@ def analyze_reviews(input_file: str, output_jsonl: Optional[str] = None, output_
 
     print(f"\nTotal reviews processed: {total_reviews}")
 
-    # Print summary statistics
-    print_sentiment_summary(processed_reviews)
-
     # Save to JSONL if specified
     if output_jsonl:
         save_to_jsonl(processed_reviews, output_jsonl)
@@ -107,31 +104,6 @@ def get_sentiment_label(compound_score: float) -> str:
         return 'negative'
     else:
         return 'neutral'
-
-
-def print_sentiment_summary(reviews: list):
-    """Print summary statistics of sentiment analysis"""
-    if not reviews:
-        print("No reviews to summarize")
-        return
-
-    positive = sum(1 for r in reviews if r['sentiment_label'] == 'positive')
-    negative = sum(1 for r in reviews if r['sentiment_label'] == 'negative')
-    neutral = sum(1 for r in reviews if r['sentiment_label'] == 'neutral')
-    total = len(reviews)
-
-    avg_compound = sum(r['sentiment_compound'] for r in reviews) / total
-
-    print("\n" + "="*60)
-    print("SENTIMENT ANALYSIS SUMMARY")
-    print("="*60)
-    print(f"Total reviews analyzed: {total:,}")
-    print(f"\nSentiment Distribution:")
-    print(f"  Positive: {positive:,} ({positive/total*100:.2f}%)")
-    print(f"  Neutral:  {neutral:,} ({neutral/total*100:.2f}%)")
-    print(f"  Negative: {negative:,} ({negative/total*100:.2f}%)")
-    print(f"\nAverage Compound Score: {avg_compound:.4f}")
-    print("="*60 + "\n")
 
 
 def save_to_jsonl(reviews: list, output_file: str):

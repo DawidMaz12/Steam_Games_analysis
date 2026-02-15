@@ -150,22 +150,6 @@ def extract_word_frequencies_by_game(input_csv: str, output_csv: str, min_word_l
 
     print(f"\n✓ Saved {len(word_df):,} word-game combinations to {output_csv}")
 
-    # Print summary
-    print("\n" + "="*60)
-    print("WORD FREQUENCY BY GAME SUMMARY")
-    print("="*60)
-    print(f"Total word-game combinations: {len(word_df):,}")
-    print(f"Unique words: {word_df['word'].nunique():,}")
-    print(f"Games covered: {word_df['appid'].nunique():,}")
-    print(f"Minimum frequency threshold: {min_frequency}")
-    print(f"Minimum word length: {min_word_length}")
-    print(f"\nTop 10 most frequent words (across all games):")
-    top_words = word_df.groupby('word')['frequency'].sum(
-    ).sort_values(ascending=False).head(10)
-    for word, freq in top_words.items():
-        print(f"  {word}: {freq:,}")
-    print("="*60 + "\n")
-
     return word_df
 
 
@@ -188,17 +172,6 @@ def main():
         min_word_length=3,
         min_frequency=3
     )
-
-    print("✓ Word frequency by game analysis completed!")
-    print(f"  Output: {output_csv}")
-    print("\nPower BI Usage:")
-    print("  1. Import word_frequencies_by_game.csv")
-    print("  2. Create relationship with game data using 'appid'")
-    print("  3. Add Word Cloud visual")
-    print("  4. Category: word")
-    print("  5. Values: frequency")
-    print("  6. Add game name slicer to filter by specific game")
-    print("  7. Word cloud will dynamically update based on game selection!")
 
 
 if __name__ == "__main__":

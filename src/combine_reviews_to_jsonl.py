@@ -21,7 +21,7 @@ def combine_reviews_to_jsonl():
 
     # Check if today's file exists
     if not today_file.exists():
-        print(f"❌ No review file found for today ({today})")
+        print(f"No review file found for today ({today})")
         print(f"   Expected: {today_file}")
         return
 
@@ -88,15 +88,6 @@ def combine_reviews_to_jsonl():
     print(f"  Unique appids: {len(consolidated_data)}")
     print(f"  Total reviews: {total_reviews}")
     print(f"  File size: {output_file.stat().st_size / (1024*1024):.2f} MB")
-
-    # Show sample statistics
-    review_counts = [len(data['reviews'])
-                     for data in consolidated_data.values()]
-    print(f"\nReview statistics:")
-    print(f"  Min reviews per game: {min(review_counts)}")
-    print(f"  Max reviews per game: {max(review_counts)}")
-    print(
-        f"  Avg reviews per game: {sum(review_counts) / len(review_counts):.1f}")
 
 
 if __name__ == "__main__":

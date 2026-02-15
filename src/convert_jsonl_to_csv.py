@@ -15,7 +15,7 @@ def convert_jsonl_to_csv():
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
     if not input_file.exists():
-        print(f"❌ Input file not found: {input_file}")
+        print(f"Input file not found: {input_file}")
         return
 
     print(f"Reading from: {input_file}")

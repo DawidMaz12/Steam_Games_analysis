@@ -81,7 +81,9 @@ Steam_Games_analysis/
    access_token = "your_steam_api_token_here"
    ```
 
-2. Get your Steam API key from: https://steamcommunity.com/dev/apikey
+2. 
+    - Get your Steam API key from: https://steamcommunity.com/dev/apikey
+    - Generate your Steam API access token from: https://steamapi.xpaw.me
 
 ## Usage
 

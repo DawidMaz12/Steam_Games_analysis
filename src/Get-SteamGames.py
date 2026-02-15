@@ -1,6 +1,5 @@
 import requests
 import json
-import os
 import time
 from datetime import datetime
 from pathlib import Path
@@ -136,7 +135,6 @@ for game in games:
         'Date_collected': date_collected_timestamp
     }
     game_player_data.append(game_info)
-#    print(f"AppID: {game_appid}, Current Players: {player_no}")
 
     # Fetch reviews for the game (only newer than last timestamp)
     last_ts = last_timestamps.get(str(game_appid), None)
